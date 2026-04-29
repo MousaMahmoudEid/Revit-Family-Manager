@@ -1,0 +1,32 @@
+{
+  "id": "tblMucgDo7OmbFmMWxj",
+  "name": "BIM Categories",
+  "description": null,
+  "dbTableName": "\"bseLuyqRqrhi1cLNIqh\".\"BIM_Categories\"",
+  "fields": [
+    {
+      "id": "fld1pRzm1yx7HgrQ4FB",
+      "name": "Subcategory",
+      "dbFieldName": "Subcategory",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldjmJ4Rbll0SfWesBy",
+      "name": "Category",
+      "dbFieldName": "Category",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    }
+  ]
+}

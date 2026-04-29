@@ -1,0 +1,283 @@
+{
+  "id": "tbljxEDp6dXrS6nLbcD",
+  "name": "Revit Families",
+  "description": null,
+  "dbTableName": "\"bseLuyqRqrhi1cLNIqh\".\"Revit_Families\"",
+  "fields": [
+    {
+      "id": "fldTME7qSOcQ2JY9mm4",
+      "name": "Tags",
+      "dbFieldName": "Tags",
+      "type": "multipleSelect",
+      "description": null,
+      "options": [
+        "Parametric",
+        "Nested",
+        "Shared",
+        "Face-Based",
+        "Adaptive",
+        "In-Place",
+        "Type Catalog",
+        "Annotation",
+        "Detail",
+        "Model",
+        "Non Hosted",
+        "Title Block"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": true
+    },
+    {
+      "id": "fldi4p2WeaDrbKbKyjr",
+      "name": "Family Name",
+      "dbFieldName": "Family_Name",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld04vdSNQMX4YUn5Bj",
+      "name": "Description",
+      "dbFieldName": "Description",
+      "type": "longText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldUEdYrPGPZ4b5j45w",
+      "name": "File Path",
+      "dbFieldName": "File_Path",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldH1s18abDeULvBIX7",
+      "name": "Version",
+      "dbFieldName": "Version",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldsNIBatIvd8DJyZVu",
+      "name": "Revit Version",
+      "dbFieldName": "Revit_Version",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "Revit 2020",
+        "Revit 2021",
+        "Revit 2022",
+        "Revit 2023",
+        "Revit 2024",
+        "Revit 2025",
+        "Revit 2026"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldPBZHtzkaCRhGma4H",
+      "name": "File Format",
+      "dbFieldName": "File_Format",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        ".rfa",
+        ".rte",
+        ".rvt",
+        ".rft"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "flduvoFGxp9bil1F8P2",
+      "name": "Manufacturer",
+      "dbFieldName": "Manufacturer",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldexfMVaYmGtS0LyRU",
+      "name": "Status",
+      "dbFieldName": "Status",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "Active",
+        "Archived",
+        "Draft",
+        "Needs Update",
+        "Deprecated"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldawWxcERpWRicfbyJ",
+      "name": "LOD",
+      "dbFieldName": "LOD",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "LOD 100",
+        "LOD 200",
+        "LOD 300",
+        "LOD 350",
+        "LOD 400",
+        "LOD 500"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldi07O1nBtehsyMTd1",
+      "name": "Date Added",
+      "dbFieldName": "Date_Added",
+      "type": "date",
+      "description": null,
+      "options": {
+        "formatting": {
+          "date": "YYYY-MM-DD",
+          "time": "None",
+          "timeZone": "Africa/Cairo"
+        }
+      },
+      "cellValueType": "dateTime",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fld0gpb2uDlPKlviSwc",
+      "name": "Last Updated",
+      "dbFieldName": "Last_Updated",
+      "type": "date",
+      "description": null,
+      "options": {
+        "formatting": {
+          "date": "YYYY-MM-DD",
+          "time": "None",
+          "timeZone": "Africa/Cairo"
+        }
+      },
+      "cellValueType": "dateTime",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldD1HVf5XEUszoUEbl",
+      "name": "Notes",
+      "dbFieldName": "Notes",
+      "type": "longText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "fldsm4gYQ7gJZ94HkfZ",
+      "name": "Thumbnail",
+      "dbFieldName": "Thumbnail",
+      "type": "attachment",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": true
+    },
+    {
+      "id": "fldTZ3R1bn0TXJGLbWp",
+      "name": "Category",
+      "dbFieldName": "Category",
+      "type": "singleSelect",
+      "description": null,
+      "options": [
+        "Accessibility",
+        "Acoustics",
+        "Bathroom",
+        "Building Services",
+        "Construction",
+        "Doors",
+        "Electrical",
+        "Facades",
+        "Flooring",
+        "Furniture",
+        "Kitchen",
+        "Landscaping",
+        "Lighting",
+        "Other",
+        "Outdoor",
+        "Roofing",
+        "Safety & Security",
+        "Walls & Ceilings",
+        "Windows"
+      ],
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    },
+    {
+      "id": "flduEnEnT2s71aSCXEE",
+      "name": "Available Subcategories",
+      "dbFieldName": "Available_Subcategories",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": true,
+      "isComputed": true,
+      "isMultipleCellValue": true
+    },
+    {
+      "id": "fld45MszkWanc10pdU3",
+      "name": "Subcategory",
+      "dbFieldName": "Subcategory",
+      "type": "singleLineText",
+      "description": null,
+      "options": {},
+      "cellValueType": "string",
+      "isLookup": null,
+      "isComputed": null,
+      "isMultipleCellValue": null
+    }
+  ]
+}
