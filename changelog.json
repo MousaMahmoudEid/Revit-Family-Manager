@@ -1,0 +1,9 @@
+{
+  "name": "Revit Family Manager",
+  "description": "BIM content library management app for Revit families",
+  "logs": [
+    "Built full Revit Family Manager with Add Form and Search/Browse tabs",
+    "Load Category and Subcategory options live from the BIM Categories table",
+    "Allow embedding the app in any iframe and add a Categories management tab"
+  ]
+}
